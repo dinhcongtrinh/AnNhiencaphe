@@ -276,6 +276,7 @@ img{
        border-radius: 50%;
        overflow: hidden;
        height: 37px;
+       width: 37px;
    }
    .navbarFixed .container {
     max-width: 99%;
@@ -292,4 +293,8 @@ img{
     width: 100vw;
     height:60vh
 }
+}
+
+.box-shadow{
+    text-shadow: 1px 1px 1px #000;
 }
