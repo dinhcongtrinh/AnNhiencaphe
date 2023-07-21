@@ -70,6 +70,18 @@ header {
     color: white;
 }
 
+
+a {
+    text-decoration: none;
+}
+
+
+.navbar-left-item{
+    margin-bottom: 5px;
+}
+.navbar-left-item:hover{
+    border-bottom: 3px solid rgb(66, 141, 186);
+}
 .main-menu a:hover {
     text-decoration: none;
     color: #08bbb7;
