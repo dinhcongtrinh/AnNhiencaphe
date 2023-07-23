@@ -275,8 +275,8 @@ img{
     position: static; right: 300px;
        border-radius: 50%;
        overflow: hidden;
-       height: 37px;
-       width: 37px;
+       height: 95px;
+       width: 95px;
    }
    .navbarFixed .container {
     max-width: 99%;
