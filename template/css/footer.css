@@ -10,12 +10,13 @@ footer{
     filter: brightness(300%);
 }
 .footer-icon-service{
-    margin-right: 1rem;
+    margin: 1rem;
 }
 .footer-content-serivce span{
     display: block;
     color: #fff;
     font-family: 'Roboto', sans-serif;
+    text-align: center
 }
 .footer-content-serivce span:last-child{
     font-size: 0.7rem;
@@ -25,10 +26,17 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+}
+.footer-icon-service{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .footer-icon-service span{
     font-size: 2.5rem;
     color: #08BBB7;
+    
 }
 .footer-service-box:hover .footer-icon-service{
     transform: rotateY(360deg);
