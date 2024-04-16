@@ -12,9 +12,14 @@
 }
 .text-header p {
     text-align: center;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     margin: 0;
+    transition: color 0.3s ease-in-out;
 }
+.text-header p:howver {
+    color: #ff0000;
+}
+
 /* .container-main  {
     display: flex;
     flex-direction: column-reverse;
@@ -43,7 +48,7 @@ header {
 }
 .navbar-menu div a {
     margin: 0 2rem;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
 }
 .navbar-fixed {
     position: fixed;
